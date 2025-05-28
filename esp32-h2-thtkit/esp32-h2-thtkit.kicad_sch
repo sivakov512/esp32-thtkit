@@ -6449,7 +6449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_MCU_Espressif:TQFN_32_1EP_4x4mm_P0.4mm_EP2.4x2.4mm_Compact"
+		(property "Footprint" "SKC_MCU_Espressif:TQFN_32_1EP_4x4mm_P0.4mm_EP2.6x2.6mm_Standard"
 			(at 97.79 74.93 0)
 			(effects
 				(font
@@ -6459,7 +6459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KICADX_LIBS}/datasheets/esp32-h2.pdf"
+		(property "Datasheet" "https://cdn.jsdelivr.net/gh/sivakov512/kicad-library@master/datasheets/MCU/Espressif/Espressif_ESP32-H2.pdf"
 			(at 97.79 74.93 0)
 			(effects
 				(font
@@ -7079,7 +7079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_NoSilk"
 			(at 226.06 147.32 0)
 			(effects
 				(font
@@ -7436,7 +7436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_NoSilk"
 			(at 266.7 142.24 0)
 			(effects
 				(font
@@ -7666,7 +7666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_NoSilk"
 			(at 246.38 147.32 0)
 			(effects
 				(font
