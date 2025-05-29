@@ -4610,7 +4610,7 @@
 		(uuid "fffca3b0-3286-4842-a8e0-6c38613a75ed")
 	)
 	(label "GPIO1"
-		(at 220.98 147.32 180)
+		(at 241.3 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4710,7 +4710,7 @@
 		(uuid "215d6cb0-5c79-4192-a10a-688a18d719d6")
 	)
 	(label "GPIO27"
-		(at 241.3 139.7 180)
+		(at 220.98 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4760,7 +4760,7 @@
 		(uuid "42fef85b-73d1-4ec8-8c2f-0b30ce09eee2")
 	)
 	(label "GPIO11"
-		(at 220.98 139.7 180)
+		(at 241.3 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4840,7 +4840,7 @@
 		(uuid "5f81117a-8c70-4b49-a7f5-c1e675396e13")
 	)
 	(label "GPIO22"
-		(at 241.3 147.32 180)
+		(at 220.98 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4880,7 +4880,7 @@
 		(uuid "6d1bd6a7-8a06-4727-a7b1-40c6d6863288")
 	)
 	(label "GPIO25"
-		(at 241.3 144.78 180)
+		(at 220.98 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4900,7 +4900,7 @@
 		(uuid "7b34b438-1c27-44c3-abff-f4f3691aee1b")
 	)
 	(label "GPIO26"
-		(at 241.3 142.24 180)
+		(at 220.98 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4910,7 +4910,7 @@
 		(uuid "8e23dc78-9c03-4751-87b2-0f39f715f560")
 	)
 	(label "GPIO12"
-		(at 241.3 149.86 180)
+		(at 220.98 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5030,7 +5030,7 @@
 		(uuid "c6b3d596-cf68-4bc9-91c4-9d624fd1a925")
 	)
 	(label "GPIO8"
-		(at 220.98 144.78 180)
+		(at 241.3 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5040,7 +5040,7 @@
 		(uuid "c77a9c1f-e17a-45bf-893c-3eba6bc40620")
 	)
 	(label "GPIO0"
-		(at 220.98 149.86 180)
+		(at 241.3 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5160,7 +5160,7 @@
 		(uuid "fbde9f22-5bcb-49ef-ae9e-5946c30bf830")
 	)
 	(label "GPIO10"
-		(at 220.98 142.24 180)
+		(at 241.3 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7056,23 +7056,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 226.06 147.32 180)
+		(at 246.38 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9890170a-761a-4da0-b625-e723c9c5a9d8")
 		(property "Reference" "J1"
-			(at 226.06 133.35 0)
+			(at 246.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PIN_GROUP_1"
-			(at 226.06 135.89 0)
+		(property "Value" "PIN_GROUP_2"
+			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7080,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_NoSilk"
-			(at 226.06 147.32 0)
+			(at 246.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +7089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 147.32 0)
+			(at 246.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7098,7 +7098,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 226.06 147.32 0)
+			(at 246.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7106,8 +7106,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C37208"
-			(at 226.06 147.32 0)
+		(property "LCSC PN" ""
+			(at 246.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,23 +7643,23 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 246.38 147.32 180)
+		(at 226.06 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b583a7dc-5ddb-48dc-addc-274c1d9961d2")
 		(property "Reference" "J2"
-			(at 246.38 133.35 0)
+			(at 226.06 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PIN_GROUP_2"
-			(at 246.38 135.89 0)
+		(property "Value" "PIN_GROUP_1"
+			(at 226.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +7667,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_NoSilk"
-			(at 246.38 147.32 0)
+			(at 226.06 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +7676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 147.32 0)
+			(at 226.06 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +7685,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 246.38 147.32 0)
+			(at 226.06 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,8 +7693,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C37208"
-			(at 246.38 147.32 0)
+		(property "LCSC PN" ""
+			(at 226.06 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
