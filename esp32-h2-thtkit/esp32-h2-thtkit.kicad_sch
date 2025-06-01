@@ -11,6 +11,169 @@
 		(company "SIVAKOV.TECH")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -583,7 +746,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_2Pole"
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -592,15 +758,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 1.524 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -608,7 +774,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -617,6 +783,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -625,16 +800,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "point tp"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -652,9 +818,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_2Pole_0_1"
+			(symbol "TestPoint_0_1"
 				(circle
-					(center -1.778 0)
+					(center 0 3.302)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -664,19 +830,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 0 0 90)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -686,24 +843,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3213,26 +3352,6 @@
 		)
 		(uuid "2cdc82c5-6598-419c-89af-7a2ccea2b593")
 	)
-	(text_box "Top interface"
-		(exclude_from_sim no)
-		(at 254 55.88 0)
-		(size 25.4 25.4)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "50020311-8f9e-43a7-b1a0-0a2977e3ed80")
-	)
 	(text_box "All bypass capacitors are the same"
 		(exclude_from_sim no)
 		(at 134.62 45.72 0)
@@ -3274,10 +3393,10 @@
 		)
 		(uuid "bfe94cc7-1700-4e1a-a356-977be0a4e5bc")
 	)
-	(text_box "Bottom interface"
+	(text_box "Interface"
 		(exclude_from_sim no)
-		(at 210.82 17.78 0)
-		(size 68.58 30.48)
+		(at 231.14 17.78 0)
+		(size 48.26 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3864,7 +3983,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 105.41) (xy 86.36 105.41)
+			(xy 87.63 105.41) (xy 77.47 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4262,16 +4381,6 @@
 		)
 		(uuid "871faa5b-88bf-4469-bf8e-1f3395fea3a4")
 	)
-	(wire
-		(pts
-			(xy 266.7 68.58) (xy 269.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "878a52c4-9652-4b69-9ad7-b1d8f3229367")
-	)
 	(bus
 		(pts
 			(xy 176.53 82.55) (xy 182.88 82.55)
@@ -4432,16 +4541,6 @@
 		)
 		(uuid "a6c51c4b-ac14-4e3b-8fbe-66531804dd35")
 	)
-	(wire
-		(pts
-			(xy 266.7 71.12) (xy 269.24 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a799d6f9-a9c4-4bf0-a0f0-8de8424eb810")
-	)
 	(bus
 		(pts
 			(xy 151.13 82.55) (xy 157.48 82.55)
@@ -4564,7 +4663,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 110.49) (xy 163.83 110.49)
+			(xy 162.56 110.49) (xy 172.72 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +4982,7 @@
 		(uuid "fffca3b0-3286-4842-a8e0-6c38613a75ed")
 	)
 	(label "GPIO1"
-		(at 243.84 38.1 180)
+		(at 243.84 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4901,16 +5000,6 @@
 			(justify left bottom)
 		)
 		(uuid "04c93326-8886-4840-b0c1-7134ec10073e")
-	)
-	(label "U0RXD"
-		(at 269.24 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06c4da4c-1cee-4236-836c-fa959c9ad3b0")
 	)
 	(label "RESET"
 		(at 144.78 119.38 0)
@@ -4973,7 +5062,7 @@
 		(uuid "1cc0d7d2-d698-493e-b677-ad46fe38e606")
 	)
 	(label "MTMS"
-		(at 264.16 30.48 180)
+		(at 243.84 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5003,7 +5092,7 @@
 		(uuid "215d6cb0-5c79-4192-a10a-688a18d719d6")
 	)
 	(label "GPIO27"
-		(at 223.52 30.48 180)
+		(at 243.84 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5053,7 +5142,7 @@
 		(uuid "42fef85b-73d1-4ec8-8c2f-0b30ce09eee2")
 	)
 	(label "GPIO11"
-		(at 243.84 30.48 180)
+		(at 264.16 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5133,7 +5222,7 @@
 		(uuid "5f81117a-8c70-4b49-a7f5-c1e675396e13")
 	)
 	(label "GPIO22"
-		(at 223.52 38.1 180)
+		(at 243.84 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5183,7 +5272,7 @@
 		(uuid "6c8fe328-83a3-4919-99fb-4cb91df6930c")
 	)
 	(label "MTCK"
-		(at 264.16 35.56 180)
+		(at 243.84 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5193,7 +5282,7 @@
 		(uuid "6d1bd6a7-8a06-4727-a7b1-40c6d6863288")
 	)
 	(label "GPIO25"
-		(at 223.52 35.56 180)
+		(at 243.84 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5212,16 +5301,6 @@
 		)
 		(uuid "7b34b438-1c27-44c3-abff-f4f3691aee1b")
 	)
-	(label "U0TXD"
-		(at 269.24 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7bd3e3c8-359c-412b-b060-62b702bd3556")
-	)
 	(label "XTAL_P"
 		(at 208.28 140.97 180)
 		(effects
@@ -5233,7 +5312,7 @@
 		(uuid "894451bb-e80e-4a59-8dcf-2ad914dbed11")
 	)
 	(label "GPIO26"
-		(at 223.52 33.02 180)
+		(at 243.84 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5253,7 +5332,7 @@
 		(uuid "93595e08-d242-497a-8a05-add69aa1009f")
 	)
 	(label "GPIO12"
-		(at 223.52 40.64 180)
+		(at 264.16 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5303,7 +5382,7 @@
 		(uuid "b482f126-f3e0-41ab-a56e-dd532193e698")
 	)
 	(label "MTDO"
-		(at 264.16 33.02 180)
+		(at 243.84 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5313,7 +5392,7 @@
 		(uuid "b5d22a61-2ab8-4625-9ccb-583e6ef3a191")
 	)
 	(label "MTDI"
-		(at 264.16 38.1 180)
+		(at 243.84 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5363,7 +5442,7 @@
 		(uuid "c6b3d596-cf68-4bc9-91c4-9d624fd1a925")
 	)
 	(label "GPIO8"
-		(at 243.84 35.56 180)
+		(at 264.16 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5373,7 +5452,7 @@
 		(uuid "c77a9c1f-e17a-45bf-893c-3eba6bc40620")
 	)
 	(label "GPIO0"
-		(at 243.84 40.64 180)
+		(at 243.84 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5452,6 +5531,16 @@
 		)
 		(uuid "e463e857-67b5-43ee-a149-5ebf6261e8ab")
 	)
+	(label "U0TXD"
+		(at 264.16 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e76a5b1f-8b72-4f65-80a5-e8f74cf38799")
+	)
 	(label "GPIO12"
 		(at 101.6 121.92 180)
 		(effects
@@ -5472,6 +5561,16 @@
 		)
 		(uuid "f731ecb3-adf6-4c7a-8567-e11710eb3c6e")
 	)
+	(label "U0RXD"
+		(at 264.16 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f758b901-3c9c-4d43-9ba8-8c654018eacb")
+	)
 	(label "${/e6db0464-d5ed-455b-a2e6-781edb73e811/edecc3f9-a7b9-410f-8550-e60d1ac272ad/758f794a-fa4d-451c-bf0b-12229bccd962:REFERENCE}VDD5"
 		(at 172.72 77.47 90)
 		(effects
@@ -5483,7 +5582,7 @@
 		(uuid "fbde9f22-5bcb-49ef-ae9e-5946c30bf830")
 	)
 	(label "GPIO10"
-		(at 243.84 33.02 180)
+		(at 264.16 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5513,7 +5612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00987e1a-5e4c-4128-9e7c-5b19cdc15bb8")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 80.01 114.3 0)
 			(effects
 				(font
@@ -5564,7 +5663,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5728,6 +5827,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17311513-2b83-4314-ae46-099412df64d8")
+		(property "Reference" "TP1"
+			(at 74.168 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 74.168 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5569963c-a768-4951-b164-2a78d5208119")
+		)
+		(instances
+			(project ""
+				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 149.86 0)
 		(unit 1)
@@ -5737,7 +5911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2232e9-df21-45ae-a82e-7181f5709348")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 160.02 156.21 0)
 			(effects
 				(font
@@ -5787,7 +5961,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5960,7 +6134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2393fb68-3154-4adc-a610-6b4c3b2d49b4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 219.71 154.94 0)
 			(effects
 				(font
@@ -6010,7 +6184,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6026,7 +6200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "365eaefe-3b29-4d33-8143-de09aac1f0c1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 193.04 78.74 0)
 			(effects
 				(font
@@ -6077,7 +6251,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6163,89 +6337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 274.32 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4235fcb7-78e2-448f-8128-7919c583523d")
-		(property "Reference" "J4"
-			(at 274.32 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UART"
-			(at 274.32 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 274.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 274.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C2691448"
-			(at 274.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08d93320-3d2b-4e97-be67-462c7f5c4458")
-		)
-		(pin "1"
-			(uuid "b540fc73-236b-45d1-9574-08a32c8e5bd1")
-		)
-		(pin "3"
-			(uuid "7480e501-a220-424f-9722-43d384b4a561")
-		)
-		(pin "4"
-			(uuid "434ff284-0e96-4f7d-ad97-655ea649d061")
-		)
-		(instances
-			(project "esp32-h2-thtkit"
-				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 45.72 55.88 90)
 		(unit 1)
@@ -6307,140 +6398,6 @@
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49bac907-7bc2-4663-9d4b-bd7a5d929211")
-		(property "Reference" "#PWR09"
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47597c09-8144-4ecb-8eab-d42d16ea5153")
-		)
-		(instances
-			(project "esp32-h2-thtkit"
-				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 266.7 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c9cc922-0af2-4a20-bedc-72acf395f890")
-		(property "Reference" "#PWR019"
-			(at 260.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.89 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f66e90e-63c3-424d-b86e-34a729a46884")
-		)
-		(instances
-			(project "esp32-h2-thtkit"
-				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6520,75 +6477,6 @@
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 81.28 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "61993806-c7de-4d84-995f-aaf5e0e40a4a")
-		(property "Reference" "TP1"
-			(at 81.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 81.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 81.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 81.28 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fe1b5f0-7526-4baa-8185-9d7c7539dcf6")
-		)
-		(pin "2"
-			(uuid "bb734af6-58a4-438b-bf9c-16fa1433832b")
-		)
-		(instances
-			(project "esp32-h2-thtkit"
-				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6680,7 +6568,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 43.18 270)
+		(at 243.84 63.5 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6688,8 +6577,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "670c07e0-41cf-4b6b-b4c7-241dfca730b3")
-		(property "Reference" "#PWR018"
-			(at 237.49 43.18 0)
+		(property "Reference" "#PWR015"
+			(at 237.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6587,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.03 43.1799 90)
+			(at 240.03 63.5001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 43.18 0)
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +6605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 43.18 0)
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 43.18 0)
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6628,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6772,7 +6661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SKC_MCU_Espressif:TQFN_32_1EP_4x4mm_P0.4mm_EP2.6x2.6mm_Standard"
+		(property "Footprint" "PCM_SKC_MCU_Espressif:TQFN_32_1EP_4x4mm_P0.4mm_EP2.4x2.4mm_Compact"
 			(at 97.79 85.09 0)
 			(effects
 				(font
@@ -6947,7 +6836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Antennas_SMD:Antenna_PCB_Espressif_2.4GHz_Left"
+		(property "Footprint" "PCM_SKC_Antennas_SMD:Antenna_PCB_Espressif_2.4GHz_Right"
 			(at 172.72 132.715 0)
 			(effects
 				(font
@@ -6966,6 +6855,15 @@
 			)
 		)
 		(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
 			(at 175.26 137.16 0)
 			(effects
 				(font
@@ -7085,7 +6983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8128fd69-4ed9-4c62-8d3c-1cae89769d75")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 203.2 55.88 0)
 			(effects
 				(font
@@ -7136,7 +7034,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7455,32 +7353,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 248.92 38.1 180)
+		(lib_id "Connector:TestPoint")
+		(at 172.72 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9890170a-761a-4da0-b625-e723c9c5a9d8")
-		(property "Reference" "J2"
-			(at 248.92 24.13 0)
+		(fields_autoplaced yes)
+		(uuid "93b6c4e5-6d90-40f3-9347-a4ae1c9b1676")
+		(property "Reference" "TP2"
+			(at 177.8 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "PIN_GROUP_2"
-			(at 248.92 26.67 0)
+		(property "Value" "TestPoint"
+			(at 176.022 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_NoSilk"
-			(at 248.92 38.1 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 38.1 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,8 +7398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 248.92 38.1 0)
+		(property "Description" "test point"
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7408,80 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 248.92 38.1 0)
+			(at 172.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "510e80f9-377c-49a6-ab5a-cfb943b2768b")
+		)
+		(instances
+			(project "esp32-h2-thtkit"
+				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 248.92 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9890170a-761a-4da0-b625-e723c9c5a9d8")
+		(property "Reference" "J2"
+			(at 248.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PIN_GROUP_3"
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_NoSilk"
+			(at 248.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 248.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 248.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a0a6e31-80ad-4dc5-af5e-b0d98737c90e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 124.46 66.04 0)
 			(effects
 				(font
@@ -7603,74 +7577,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 266.7 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0a9824c-0c89-496b-be0a-74f26108668c")
-		(property "Reference" "#PWR020"
-			(at 270.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 262.89 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 266.7 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b895b6ed-3936-4746-a729-f19bc5709100")
-		)
-		(instances
-			(project "esp32-h2-thtkit"
-				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR020")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7686,7 +7593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8157b98-75d7-4377-aa82-6f8dda270e46")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -7737,7 +7644,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7753,7 +7660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab9691f6-9f8f-4066-a816-5dcc46db840f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 170.18 119.38 0)
 			(effects
 				(font
@@ -7804,7 +7711,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7828,7 +7735,7 @@
 				)
 			)
 		)
-		(property "Value" "PIN_GROUP_3"
+		(property "Value" "PIN_GROUP_2"
 			(at 269.24 26.67 0)
 			(effects
 				(font
@@ -7974,76 +7881,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 105.41 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b43441f9-ae76-4314-aaa8-467dd100fb11")
-		(property "Reference" "#PWR03"
-			(at 69.85 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e420393-cc5c-4787-b5f9-45d1f34d7cae")
-		)
-		(instances
-			(project "esp32-h2-thtkit"
-				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 228.6 38.1 180)
+		(at 248.92 35.56 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8051,7 +7891,7 @@
 		(dnp no)
 		(uuid "b583a7dc-5ddb-48dc-addc-274c1d9961d2")
 		(property "Reference" "J1"
-			(at 228.6 24.13 0)
+			(at 248.92 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +7899,7 @@
 			)
 		)
 		(property "Value" "PIN_GROUP_1"
-			(at 228.6 26.67 0)
+			(at 248.92 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +7907,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_NoSilk"
-			(at 228.6 38.1 0)
+			(at 248.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +7916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 38.1 0)
+			(at 248.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +7925,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 228.6 38.1 0)
+			(at 248.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +7934,7 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 228.6 38.1 0)
+			(at 248.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,7 +7979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4495a44-f955-4738-a28a-56c09e9b8e13")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 184.15 139.7 0)
 			(effects
 				(font
@@ -8190,7 +8030,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8354,6 +8194,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 269.24 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d02bfb54-30de-42ac-a793-92fc182e98a0")
+		(property "Reference" "J4"
+			(at 270.51 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "UART"
+			(at 270.51 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_SKC_Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_NoSilk"
+			(at 269.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 269.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C7501580"
+			(at 269.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b69e605-b0ea-467e-a7cb-4b2b5d8690fd")
+		)
+		(pin "2"
+			(uuid "c7b3e187-a2ef-42c4-bc35-77a2ee723e36")
+		)
+		(instances
+			(project ""
+				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 101.6 60.96 0)
 		(unit 1)
@@ -8442,7 +8362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2174f5-a715-4872-8cec-1fe38d7c9479")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 123.19 151.13 0)
 			(effects
 				(font
@@ -8492,76 +8412,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 168.91 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e174d104-23ee-4ba2-b2d7-a6f42fba7871")
-		(property "Reference" "TP2"
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6972819-e1af-4a80-8411-3f434c2240bd")
-		)
-		(pin "2"
-			(uuid "f437445f-54ef-42f9-8500-be0311582383")
-		)
-		(instances
-			(project "esp32-h2-thtkit"
-				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "TP2")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8577,7 +8428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e782c1bd-5e50-424f-b144-6e4a21855790")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 219.71 127 0)
 			(effects
 				(font
@@ -8627,7 +8478,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2e1ce6b-8625-47e0-abfd-65126c50d025")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 219.71 119.38 0)
 			(effects
 				(font
@@ -8916,7 +8767,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8924,7 +8775,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 223.52 43.18 90)
+		(at 243.84 66.04 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8932,8 +8784,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb352098-2052-4f93-a94c-a69cebad2f22")
-		(property "Reference" "#PWR017"
-			(at 227.33 43.18 0)
+		(property "Reference" "#PWR016"
+			(at 247.65 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +8794,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 219.71 43.1799 90)
+			(at 240.03 66.0401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +8803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 43.18 0)
+			(at 243.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +8812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 43.18 0)
+			(at 243.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +8821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 223.52 43.18 0)
+			(at 243.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +8835,7 @@
 		(instances
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
