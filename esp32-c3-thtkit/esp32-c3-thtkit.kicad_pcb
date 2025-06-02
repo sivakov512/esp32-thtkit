@@ -1892,7 +1892,7 @@
 		(path "/17311513-2b83-4314-ae46-099412df64d8")
 		(sheetname "/")
 		(sheetfile "esp32-c3-thtkit.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -2173,7 +2173,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C2858491"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4726,7 +4726,7 @@
 		(path "/b1586e17-a8bb-4196-830f-a6d95964529a")
 		(sheetname "/")
 		(sheetfile "esp32-c3-thtkit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.77 -1.78)
 			(end -1.77 17.02)
@@ -5205,7 +5205,7 @@
 		(path "/93b6c4e5-6d90-40f3-9347-a4ae1c9b1676")
 		(sheetname "/")
 		(sheetfile "esp32-c3-thtkit.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -7211,7 +7211,7 @@
 		(path "/d8ddbacb-3463-4d4a-a935-f4a8ab3c68e4")
 		(sheetname "/")
 		(sheetfile "esp32-c3-thtkit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.77 -1.78)
 			(end -1.77 17.02)

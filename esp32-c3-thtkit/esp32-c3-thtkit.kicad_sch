@@ -5662,7 +5662,7 @@
 		(at 77.47 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7003,7 +7003,7 @@
 		(at 168.91 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7443,7 +7443,7 @@
 		(at 248.92 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b1586e17-a8bb-4196-830f-a6d95964529a")
@@ -7917,7 +7917,7 @@
 		(at 248.92 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d8ddbacb-3463-4d4a-a935-f4a8ab3c68e4")
@@ -8348,7 +8348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C2858491"
 			(at 123.19 115.57 0)
 			(effects
 				(font

@@ -922,7 +922,7 @@
 		(path "/17311513-2b83-4314-ae46-099412df64d8")
 		(sheetname "/")
 		(sheetfile "esp32-h2-thtkit.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -1248,7 +1248,7 @@
 		(path "/93b6c4e5-6d90-40f3-9347-a4ae1c9b1676")
 		(sheetname "/")
 		(sheetfile "esp32-h2-thtkit.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
