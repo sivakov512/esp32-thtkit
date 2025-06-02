@@ -7150,7 +7150,7 @@
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7b387eac-4881-487d-a1c9-e89259520708")
+			(uuid "7bcd20a1-ed60-46cf-a6bd-a78c2027a612")
 			(effects
 				(font
 					(size 1 1)
@@ -7162,7 +7162,7 @@
 			(at 0 17.62 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8973f783-4c7f-4df5-b2fb-daad52f89522")
+			(uuid "76243ee1-c30f-4658-96cd-2225c90ce9f9")
 			(effects
 				(font
 					(size 1 1)
@@ -7174,7 +7174,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7410f3f-45ff-4060-a4ff-6736586ac2b3")
+			(uuid "fb185759-f846-44dd-978f-387f33ca5c14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +7186,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76394bbd-6b2a-46e2-98b4-8b4eb0f1be00")
+			(uuid "10caaed7-302d-41fb-87e2-7d895efbf717")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8833,6 +8833,248 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_circle
+		(center 194.2846 119.8372)
+		(end 194.6656 119.4054)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "05f85158-5e38-4b05-857f-261f5c61a625")
+	)
+	(gr_circle
+		(center 200.66 114.3)
+		(end 201.422 113.792)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "0fb38e25-4549-4c26-a6c5-db3fcb5ad837")
+	)
+	(gr_rect
+		(start 184.5056 108.3056)
+		(end 186.3344 110.1344)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "150d5473-6b4c-4afe-a6dd-5713f25594ff")
+	)
+	(gr_circle
+		(center 200.66 124.46)
+		(end 201.422 123.952)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "2c654a1f-23cd-41e6-bede-58550a2d8471")
+	)
+	(gr_circle
+		(center 200.66 121.92)
+		(end 201.422 121.412)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "30185752-f459-4416-b8be-e9424d0b4520")
+	)
+	(gr_rect
+		(start 188.1124 117.4496)
+		(end 189.9412 119.2784)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4bdde38f-d21a-46b3-b8bf-53026b0c4605")
+	)
+	(gr_rect
+		(start 199.7456 108.3056)
+		(end 201.5744 110.1344)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "57c79846-f240-4dfe-86ae-ce902ad4c5fd")
+	)
+	(gr_circle
+		(center 191.77 124.46)
+		(end 192.532 123.952)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "5c6bf363-1762-4bdb-8d55-e4fedf417b7f")
+	)
+	(gr_circle
+		(center 200.66 119.38)
+		(end 201.422 118.872)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "687e110f-036f-4e42-a38b-69e37aaf2801")
+	)
+	(gr_circle
+		(center 185.42 124.46)
+		(end 186.182 123.952)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "858d5732-2eaa-4019-a96b-08839eaa8a04")
+	)
+	(gr_rect
+		(start 188.3156 123.5456)
+		(end 190.1444 125.3744)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "900064c6-ab56-48a0-b4ad-56e74ec8664b")
+	)
+	(gr_circle
+		(center 196.85 124.46)
+		(end 197.612 123.952)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "950456a9-07b3-4b63-8496-0b539303eedb")
+	)
+	(gr_circle
+		(center 185.42 119.38)
+		(end 186.182 118.872)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "9675dbf7-64e3-442e-8de2-0f0df7ca611c")
+	)
+	(gr_circle
+		(center 191.897 119.8118)
+		(end 192.278 119.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "988f205a-9e5e-449e-8ad2-c6686b192379")
+	)
+	(gr_circle
+		(center 200.66 116.84)
+		(end 201.422 116.332)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b4794b07-2e44-43c7-9da2-081b7e53e84d")
+	)
+	(gr_circle
+		(center 189.02 120.91)
+		(end 189.782 120.402)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "bd307949-9e01-4bb2-bb76-b40b7a83b6b6")
+	)
+	(gr_circle
+		(center 185.42 111.76)
+		(end 186.182 111.252)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "c24f225b-8c77-437f-be92-f0b30a5027d5")
+	)
+	(gr_circle
+		(center 194.31 124.46)
+		(end 195.072 123.952)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "da504ea8-5b39-410b-954f-002301c037d4")
+	)
+	(gr_circle
+		(center 185.42 121.92)
+		(end 186.182 121.412)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "dd502c12-5d06-4f1e-ab8e-ca77b7a569e1")
+	)
+	(gr_circle
+		(center 185.42 114.3)
+		(end 186.182 113.792)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e2ca127b-bcf9-4a89-8aa9-b0e1bf0aea0c")
+	)
+	(gr_circle
+		(center 185.42 116.84)
+		(end 186.182 116.332)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "eb838ff7-d0f7-4047-8055-e9b680c6617e")
+	)
+	(gr_circle
+		(center 200.66 111.76)
+		(end 201.422 111.252)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ec6275e7-1e72-4f9c-ab4c-6c2553457f26")
+	)
 	(gr_rect
 		(start 184.1 101.31)
 		(end 201.98 125.78)
@@ -8856,7 +9098,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ESP32-C2-THTKIT"
+	(gr_text "ESP32-C3-THTKIT"
 		(at 187.62 125.74 90)
 		(layer "F.SilkS")
 		(uuid "b3ec94ca-efe0-44b5-845e-916aeae70d1f")
@@ -8876,6 +9118,292 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SPIWP"
+		(at 202.438 122.428 0)
+		(layer "Dwgs.User")
+		(uuid "30102e16-3339-45f9-a9ef-da1f2b291c8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPIO19"
+		(at 183.642 124.968 0)
+		(layer "Dwgs.User")
+		(uuid "38f4b089-7461-4fd4-a22f-b4844b7c12e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "RESET"
+		(at 192.278 119.235942 90)
+		(layer "Dwgs.User")
+		(uuid "3dc1a411-a1d7-4382-a536-dc22d5797138")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPIO10"
+		(at 183.642 119.888 0)
+		(layer "Dwgs.User")
+		(uuid "5226a7b5-4523-41a7-ad9b-a20b0ab9c60c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "SPIHD"
+		(at 202.438 124.968 0)
+		(layer "Dwgs.User")
+		(uuid "61b353c7-14e5-4860-9078-1f783eaf7fb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SPICSO"
+		(at 202.438 119.888 0)
+		(layer "Dwgs.User")
+		(uuid "64beec83-0750-4c8e-8022-50eb06c310e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MTDO"
+		(at 197.358 126.238 90)
+		(layer "Dwgs.User")
+		(uuid "68b94f1f-668c-464e-836d-325589b9be46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "GPIO3"
+		(at 183.642 114.808 0)
+		(layer "Dwgs.User")
+		(uuid "933a0f2d-dae8-4333-959a-4c35c1d48bd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "SPICLK"
+		(at 202.438 117.348 0)
+		(layer "Dwgs.User")
+		(uuid "a39618d9-121b-4a25-8d58-bf4fb1684207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 194.818 119.126 90)
+		(layer "Dwgs.User")
+		(uuid "a3e8148c-4a24-4a00-a5bd-48a6c5b284e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VIN"
+		(at 183.642 109.728 0)
+		(layer "Dwgs.User")
+		(uuid "a7ef0169-04b3-4a9c-b41e-6e5c612120e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "MTMS"
+		(at 189.738 126.238 90)
+		(layer "Dwgs.User")
+		(uuid "b3b14d03-998e-4be3-9705-705dde5eedd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "MTCK"
+		(at 194.818 126.238 90)
+		(layer "Dwgs.User")
+		(uuid "b45782e8-72d8-464e-819d-773dd3fd591c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "RX"
+		(at 187.96 121.92 90)
+		(layer "Dwgs.User")
+		(uuid "b681c3d8-f6fb-4402-9d9e-56d060a17e89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPIO2"
+		(at 183.642 112.268 0)
+		(layer "Dwgs.User")
+		(uuid "bada43fc-d6e0-401e-9678-3b74fdabdf44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 202.438 109.728 0)
+		(layer "Dwgs.User")
+		(uuid "bd445fea-29a8-4aaa-bd82-8244e22939f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MTDI"
+		(at 192.278 126.238 90)
+		(layer "Dwgs.User")
+		(uuid "c163cf2f-25d7-46ed-a853-1e0f2a1d9b98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "TX"
+		(at 187.96 119.2784 90)
+		(layer "Dwgs.User")
+		(uuid "c8ac0eae-ad51-4e43-922d-91dbecf075be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SPIQ"
+		(at 202.438 112.268 0)
+		(layer "Dwgs.User")
+		(uuid "dc2bb6d6-44c2-488d-b87d-cd33ade976b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPIO8"
+		(at 183.642 117.348 0)
+		(layer "Dwgs.User")
+		(uuid "de3f6ab6-cc52-486c-92be-dd711944356b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "GPIO18"
+		(at 183.642 122.428 0)
+		(layer "Dwgs.User")
+		(uuid "eaefe409-59ec-48e2-bb16-36b7c525b676")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "SPID"
+		(at 202.438 114.808 0)
+		(layer "Dwgs.User")
+		(uuid "f633f535-f454-44a0-a793-bc1ae26fe883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
