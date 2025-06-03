@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESP32-H2-THTKIT")
 		(date "2025-05-28")
-		(rev "1.0.0")
+		(rev "1.0.1")
 		(company "SIVAKOV.TECH")
 	)
 	(lib_symbols
@@ -5766,7 +5766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6p 6.3V C0G"
+		(property "Value" "15p 6.3V C0G"
 			(at 207.518 137.16 0)
 			(effects
 				(font
@@ -5775,7 +5775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.8548 133.35 0)
 			(effects
 				(font
@@ -5802,7 +5802,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C161434"
+		(property "LCSC PN" "C1548"
 			(at 210.82 137.16 0)
 			(effects
 				(font
@@ -6285,7 +6285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.7548 140.97 0)
 			(effects
 				(font
@@ -6312,7 +6312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C710732"
+		(property "LCSC PN" "C1559"
 			(at 172.72 144.78 0)
 			(effects
 				(font
@@ -6431,7 +6431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 79.0448 58.42 0)
 			(effects
 				(font
@@ -6458,7 +6458,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C694489"
+		(property "LCSC PN" "C1537"
 			(at 80.01 62.23 0)
 			(effects
 				(font
@@ -7066,7 +7066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 140.6652 0)
 			(effects
 				(font
@@ -7093,7 +7093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C85914"
+		(property "LCSC PN" "C1574"
 			(at 166.37 139.7 90)
 			(effects
 				(font
@@ -7292,7 +7292,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6p 6.3V C0G"
+		(property "Value" "15p 6.3V C0G"
 			(at 231.902 146.05 0)
 			(effects
 				(font
@@ -7301,7 +7301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 227.6348 140.97 0)
 			(effects
 				(font
@@ -7328,7 +7328,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C237455"
+		(property "LCSC PN" "C1548"
 			(at 228.6 144.78 0)
 			(effects
 				(font
@@ -8133,7 +8133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p 6.3V C0G"
+		(property "Value" "25p 6.3V C0G"
 			(at 208.788 108.966 0)
 			(effects
 				(font
@@ -8142,7 +8142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.1248 104.14 0)
 			(effects
 				(font
@@ -8169,7 +8169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C22374851"
+		(property "LCSC PN" "C1556"
 			(at 212.09 107.95 0)
 			(effects
 				(font
@@ -8502,7 +8502,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15p 6.3V C0G"
+		(property "Value" "25p 6.3V C0G"
 			(at 230.632 109.22 0)
 			(effects
 				(font
@@ -8511,7 +8511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.3648 104.14 0)
 			(effects
 				(font
@@ -8538,7 +8538,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C237455"
+		(property "LCSC PN" "C1556"
 			(at 227.33 107.95 0)
 			(effects
 				(font
