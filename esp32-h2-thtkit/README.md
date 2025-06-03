@@ -22,7 +22,8 @@ ESP32-H2-THTKIT is an ultra-compact development board based on the ESP32-H2FH4 S
 - Bottom header (THT): GPIO8, GPIO10, GPIO11, GPIO12 (can be used as JTAG)
 - Top edge: UART TX/RX pins
 - BOOT/RESET: pad-based activation (short to GND)
-- Pin pitch: 2.54 mm standard; bottom header offset by 1.27 mm for breadboard clearance
+- Pin pitch: 2.54 mm standard
+- Bottom header deliberately offset by 1.27 mm (half pitch) to prevent accidental shorts when inserted into a breadboard
 
 ---
 

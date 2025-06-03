@@ -22,7 +22,8 @@ ESP32-C3-THTKIT is an ultra-compact development board based on the ESP32-C3FH4 S
 - Bottom header (THT): GPIO4 to GPIO7 (JTAG by default)
 - Top edge: UART TX/RX pins
 - BOOT/RESET: pad-based activation (short to GND)
-- Pin pitch: 2.54 mm standard; bottom header offset by 1.27 mm for breadboard clearance
+- Pin pitch: 2.54 mm standard
+- Bottom header deliberately offset by 1.27 mm (half pitch) to prevent accidental shorts when inserted into a breadboard
 
 ---
 
