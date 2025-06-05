@@ -8319,7 +8319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SKC_MCU_Espressif:TQFN_32_1EP_4x4mm_P0.4mm_EP2.4x2.4mm_Compact"
+		(property "Footprint" "PCM_SKC_MCU_Espressif:VFQFN_32_1EP_5x5mm_P0.5mm_EP3.2x3.2mm_Compact"
 			(at 97.79 85.09 0)
 			(effects
 				(font
