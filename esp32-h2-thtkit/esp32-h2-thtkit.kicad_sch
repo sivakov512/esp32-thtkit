@@ -1207,167 +1207,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Crystal"
 			(pin_numbers
 				(hide yes)
@@ -5733,6 +5572,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "963-MLASU105SB7104KF"
+			(at 140.97 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d1e8f96f-fae4-47f2-8e0e-c9b27e602134")
 		)
@@ -5803,6 +5651,15 @@
 			)
 		)
 		(property "LCSC PN" "C1548"
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "963-MCASU105SCG150JF"
 			(at 210.82 137.16 0)
 			(effects
 				(font
@@ -5882,6 +5739,15 @@
 		)
 		(property "LCSC PN" ""
 			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" ""
+			(at 77.47 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,6 +5898,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "963-MLASU105SB7104KF"
+			(at 179.07 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9bd0f4a-c54a-4db6-8c88-57a9d11ee436")
 		)
@@ -6102,6 +5977,15 @@
 			)
 		)
 		(property "LCSC PN" "C25744"
+			(at 168.91 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "667-ERJ-PA2D1002X"
 			(at 168.91 119.38 90)
 			(effects
 				(font
@@ -6185,6 +6069,94 @@
 			(project "esp32-h2-thtkit"
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27dbfb3e-14b1-4b2c-85dc-e5c1873e57a8")
+		(property "Reference" "C3"
+			(at 105.41 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2u 6.3V X7R"
+			(at 105.41 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 100.6348 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1537"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "963-MLASE168BB7225KT"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82082a8b-12e6-4d6f-b20c-7a42044b5319")
+		)
+		(pin "2"
+			(uuid "bb17e394-1d2b-4bd2-b926-86bf89780308")
+		)
+		(instances
+			(project "esp32-h2-thtkit"
+				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6313,6 +6285,15 @@
 			)
 		)
 		(property "LCSC PN" "C1559"
+			(at 172.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "963-MBASU105SCG2R2BF"
 			(at 172.72 144.78 0)
 			(effects
 				(font
@@ -6467,6 +6448,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "963-MCASU105SB7471KF"
+			(at 80.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b03e63b-8ecf-4ee7-b1d8-0bdc60ff3065")
 		)
@@ -6537,6 +6527,15 @@
 			)
 		)
 		(property "LCSC PN" "C7301921"
+			(at 219.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "815-ABS05N32768KH9T5"
 			(at 219.71 140.97 0)
 			(effects
 				(font
@@ -6691,6 +6690,15 @@
 			)
 		)
 		(property "LCSC PN" "C22470214"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "356-ESP32-H2FH4"
 			(at 123.19 115.57 0)
 			(effects
 				(font
@@ -6872,6 +6880,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" ""
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd8cd020-bc95-4f51-aaea-357f06cfb7e9")
 		)
@@ -6941,6 +6958,15 @@
 			)
 		)
 		(property "LCSC PN" "C29613"
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "998-MIC5219-3.3YM5TR"
 			(at 71.12 58.42 0)
 			(effects
 				(font
@@ -7102,6 +7128,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "963-MCASU105SCG5R6CF"
+			(at 166.37 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5896439c-3ab9-45c4-80f1-f1f1f8a16038")
 		)
@@ -7174,6 +7209,15 @@
 			)
 		)
 		(property "LCSC PN" "C309458"
+			(at 160.02 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "963-MLASU105SB7104KF"
 			(at 160.02 63.5 90)
 			(effects
 				(font
@@ -7259,6 +7303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "815-ABS05N32768KH9T5"
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6271319b-ed88-4a56-9eb2-1e8b6f916659")
 		)
@@ -7329,6 +7382,15 @@
 			)
 		)
 		(property "LCSC PN" "C1548"
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "963-MCASU105SCG150JF"
 			(at 228.6 144.78 0)
 			(effects
 				(font
@@ -7416,6 +7478,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" ""
+			(at 172.72 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "510e80f9-377c-49a6-ab5a-cfb943b2768b")
 		)
@@ -7481,6 +7552,15 @@
 			)
 		)
 		(property "LCSC PN" ""
+			(at 248.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" ""
 			(at 248.92 60.96 0)
 			(effects
 				(font
@@ -7779,6 +7859,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" ""
+			(at 269.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "04a758fa-63c0-4147-ace3-a32f7472f46d")
 		)
@@ -7865,6 +7954,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "963-MLASU105SB7104KF"
+			(at 153.67 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5c13116-f8e8-46ed-88dd-a1942eea5673")
 		)
@@ -7934,6 +8032,15 @@
 			)
 		)
 		(property "LCSC PN" ""
+			(at 248.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" ""
 			(at 248.92 35.56 0)
 			(effects
 				(font
@@ -8100,6 +8207,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "667-ERJ-PA2D1002X"
+			(at 81.28 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55caebc3-b759-4bb5-9cf7-83331ba5465a")
 		)
@@ -8170,6 +8286,15 @@
 			)
 		)
 		(property "LCSC PN" "C1556"
+			(at 212.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "603-CC0402JRNPO9BN25"
 			(at 212.09 107.95 0)
 			(effects
 				(font
@@ -8258,6 +8383,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" ""
+			(at 269.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b69e605-b0ea-467e-a7cb-4b2b5d8690fd")
 		)
@@ -8268,85 +8402,6 @@
 			(project ""
 				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 101.6 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d62cf7d6-0a3c-4558-9e7a-f7bfdd30250b")
-		(property "Reference" "C3"
-			(at 105.41 58.8009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2m 6.3V TANT"
-			(at 105.41 61.3409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
-			(at 102.5652 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C444770"
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "414e5107-4d2e-40f5-a1c4-c6c9f6acfa70")
-		)
-		(pin "2"
-			(uuid "5dd97d59-7072-4115-8ac5-e8e584bb03eb")
-		)
-		(instances
-			(project "esp32-h2-thtkit"
-				(path "/21bae930-3e14-4189-b094-01a81df48ce6"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8547,6 +8602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "603-CC0402JRNPO9BN25"
+			(at 227.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bbf5a863-3336-4d6f-9719-d777c6013d48")
 		)
@@ -8581,7 +8645,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m 6.3V X7R"
+		(property "Value" "1u 6.3V X7R"
 			(at 52.07 62.2299 0)
 			(effects
 				(font
@@ -8618,6 +8682,15 @@
 			)
 		)
 		(property "LCSC PN" "C307427"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "963-TMK105BJ105MV-F"
 			(at 48.26 60.96 0)
 			(effects
 				(font
@@ -8904,6 +8977,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser PN DRAFT" "81-LQG15HS3N9B02D"
+			(at 160.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ad6cb4e-f782-408d-900c-a380cf11fc74")
 		)
@@ -8976,6 +9058,15 @@
 			)
 		)
 		(property "LCSC PN" "C309458"
+			(at 185.42 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser PN DRAFT" "963-MLASU105SB7104KF"
 			(at 185.42 63.5 90)
 			(effects
 				(font
